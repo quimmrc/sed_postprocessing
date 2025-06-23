@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 15.5, "end_time": 18.0, "name": "Boat_and_Water_vehicle", "confidence": 0.3}, {"start_time": 18.5, "end_time": 21.5, "name": "Aircraft", "confidence": 0.82}], "num_detections": 2, "detected_classes": ["Aircraft", "Boat_and_Water_vehicle"]}

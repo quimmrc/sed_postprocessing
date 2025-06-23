@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 1.5, "end_time": 2.5, "name": "Harmonica", "confidence": 0.79}, {"start_time": 1.5, "end_time": 3.0, "name": "Music", "confidence": 0.97}, {"start_time": 1.5, "end_time": 3.0, "name": "Musical_instrument", "confidence": 0.97}], "num_detections": 3, "detected_classes": ["Music", "Musical_instrument", "Harmonica"]}

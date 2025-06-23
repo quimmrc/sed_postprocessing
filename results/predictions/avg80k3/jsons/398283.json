@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 0.0, "end_time": 0.5, "name": "Boom", "confidence": 0.56}, {"start_time": 2.0, "end_time": 2.5, "name": "Gunshot_and_gunfire", "confidence": 0.95}], "num_detections": 2, "detected_classes": ["Gunshot_and_gunfire", "Boom"]}

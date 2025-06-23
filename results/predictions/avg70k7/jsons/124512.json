@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 1.0, "end_time": 3.5, "name": "Bowed_string_instrument", "confidence": 0.67}, {"start_time": 4.0, "end_time": 5.5, "name": "Mallet_percussion", "confidence": 0.69}], "num_detections": 2, "detected_classes": ["Mallet_percussion", "Bowed_string_instrument"]}

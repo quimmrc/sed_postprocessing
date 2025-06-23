@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 2.5, "end_time": 3.0, "name": "Breathing", "confidence": 0.77}, {"start_time": 7.5, "end_time": 8.0, "name": "Breathing", "confidence": 0.89}, {"start_time": 7.5, "end_time": 8.0, "name": "Respiratory_sounds", "confidence": 0.9}], "num_detections": 3, "detected_classes": ["Breathing", "Respiratory_sounds"]}

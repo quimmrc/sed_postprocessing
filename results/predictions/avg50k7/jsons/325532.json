@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 8.5, "end_time": 11.0, "name": "Domestic_sounds_and_home_sounds", "confidence": 0.72}, {"start_time": 9.5, "end_time": 11.0, "name": "Liquid", "confidence": 0.55}], "num_detections": 2, "detected_classes": ["Liquid", "Domestic_sounds_and_home_sounds"]}

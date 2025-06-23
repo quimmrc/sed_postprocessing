@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 0.0, "end_time": 4.0, "name": "Tools", "confidence": 0.83}, {"start_time": 4.5, "end_time": 6.0, "name": "Tools", "confidence": 0.75}, {"start_time": 15.5, "end_time": 19.0, "name": "Tools", "confidence": 0.75}], "num_detections": 3, "detected_classes": ["Tools"]}

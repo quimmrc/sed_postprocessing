@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 0.0, "end_time": 2.5, "name": "Water", "confidence": 0.86}, {"start_time": 3.0, "end_time": 19.0, "name": "Water", "confidence": 0.85}, {"start_time": 22.0, "end_time": 27.0, "name": "Water", "confidence": 0.86}, {"start_time": 28.0, "end_time": 28.5, "name": "Water", "confidence": 0.86}], "num_detections": 4, "detected_classes": ["Water"]}

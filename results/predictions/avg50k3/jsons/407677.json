@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 4.0, "end_time": 4.5, "name": "Wind_instrument_and_woodwind_instrument", "confidence": 0.46}], "num_detections": 1, "detected_classes": ["Wind_instrument_and_woodwind_instrument"]}

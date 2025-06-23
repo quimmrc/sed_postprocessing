@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 4.0, "end_time": 5.0, "name": "Conversation", "confidence": 0.25}, {"start_time": 15.5, "end_time": 16.0, "name": "Subway_and_metro_and_underground", "confidence": 0.6}], "num_detections": 2, "detected_classes": ["Conversation", "Subway_and_metro_and_underground"]}

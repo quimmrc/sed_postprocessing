@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 6.5, "end_time": 7.5, "name": "Vehicle", "confidence": 0.93}, {"start_time": 7.0, "end_time": 7.5, "name": "Accelerating_and_revving_and_vroom", "confidence": 0.3}], "num_detections": 2, "detected_classes": ["Vehicle", "Accelerating_and_revving_and_vroom"]}

@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 2.0, "end_time": 3.5, "name": "Drawer_open_or_close", "confidence": 0.66}, {"start_time": 6.0, "end_time": 8.0, "name": "Drawer_open_or_close", "confidence": 0.64}], "num_detections": 2, "detected_classes": ["Drawer_open_or_close"]}

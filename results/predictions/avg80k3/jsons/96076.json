@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 0.0, "end_time": 0.5, "name": "Bass_drum", "confidence": 0.27}], "num_detections": 1, "detected_classes": ["Bass_drum"]}

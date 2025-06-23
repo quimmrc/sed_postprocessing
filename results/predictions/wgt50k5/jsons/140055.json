@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 0.0, "end_time": 1.0, "name": "Hiss", "confidence": 0.3}], "num_detections": 1, "detected_classes": ["Hiss"]}

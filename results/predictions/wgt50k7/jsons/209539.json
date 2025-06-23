@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 3.5, "end_time": 4.0, "name": "Rattle", "confidence": 0.36}, {"start_time": 4.0, "end_time": 5.0, "name": "Male_speech_and_man_speaking", "confidence": 0.18}, {"start_time": 4.0, "end_time": 6.5, "name": "Microwave_oven", "confidence": 0.4}], "num_detections": 3, "detected_classes": ["Rattle", "Male_speech_and_man_speaking", "Microwave_oven"]}

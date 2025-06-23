@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 1.5, "end_time": 4.5, "name": "Packing_tape_and_duct_tape", "confidence": 0.44}, {"start_time": 4.5, "end_time": 5.5, "name": "Tearing", "confidence": 0.49}], "num_detections": 2, "detected_classes": ["Tearing", "Packing_tape_and_duct_tape"]}

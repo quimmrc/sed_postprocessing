@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 5.0, "end_time": 5.5, "name": "Bowed_string_instrument", "confidence": 0.55}, {"start_time": 6.5, "end_time": 8.5, "name": "Bowed_string_instrument", "confidence": 0.55}], "num_detections": 2, "detected_classes": ["Bowed_string_instrument"]}

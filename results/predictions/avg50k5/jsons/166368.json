@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 0.0, "end_time": 1.0, "name": "Mallet_percussion", "confidence": 0.5}, {"start_time": 0.0, "end_time": 1.5, "name": "Wind_chime", "confidence": 0.44}, {"start_time": 0.5, "end_time": 1.0, "name": "Bell", "confidence": 0.53}], "num_detections": 3, "detected_classes": ["Wind_chime", "Bell", "Mallet_percussion"]}

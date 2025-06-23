@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 2.0, "end_time": 3.0, "name": "Walk_and_footsteps", "confidence": 0.79}, {"start_time": 4.0, "end_time": 4.5, "name": "Walk_and_footsteps", "confidence": 0.77}], "num_detections": 2, "detected_classes": ["Walk_and_footsteps"]}

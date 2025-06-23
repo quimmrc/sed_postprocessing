@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 0.5, "end_time": 4.5, "name": "Music", "confidence": 0.96}, {"start_time": 0.5, "end_time": 4.5, "name": "Musical_instrument", "confidence": 0.96}, {"start_time": 1.0, "end_time": 5.0, "name": "Bowed_string_instrument", "confidence": 0.49}], "num_detections": 3, "detected_classes": ["Bowed_string_instrument", "Music", "Musical_instrument"]}

@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 0.0, "end_time": 4.0, "name": "Mallet_percussion", "confidence": 0.95}, {"start_time": 0.0, "end_time": 4.0, "name": "Marimba_and_xylophone", "confidence": 0.85}, {"start_time": 0.0, "end_time": 3.5, "name": "Percussion", "confidence": 0.96}], "num_detections": 3, "detected_classes": ["Marimba_and_xylophone", "Mallet_percussion", "Percussion"]}

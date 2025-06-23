@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 0.0, "end_time": 2.0, "name": "Train", "confidence": 0.61}, {"start_time": 5.0, "end_time": 7.0, "name": "Rail_transport", "confidence": 0.75}, {"start_time": 5.0, "end_time": 6.5, "name": "Train", "confidence": 0.57}], "num_detections": 3, "detected_classes": ["Train", "Rail_transport"]}

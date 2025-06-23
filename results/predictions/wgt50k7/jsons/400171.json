@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 9.5, "end_time": 16.5, "name": "Music", "confidence": 0.94}, {"start_time": 10.0, "end_time": 16.5, "name": "Musical_instrument", "confidence": 0.94}, {"start_time": 25.0, "end_time": 26.0, "name": "Vehicle", "confidence": 0.79}], "num_detections": 3, "detected_classes": ["Musical_instrument", "Vehicle", "Music"]}

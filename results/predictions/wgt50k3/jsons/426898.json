@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 0.0, "end_time": 0.5, "name": "Burping_and_eructation", "confidence": 0.92}, {"start_time": 0.0, "end_time": 0.5, "name": "Liquid", "confidence": 0.7}], "num_detections": 2, "detected_classes": ["Burping_and_eructation", "Liquid"]}

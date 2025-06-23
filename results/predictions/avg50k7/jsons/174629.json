@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 3.5, "end_time": 4.0, "name": "Coin_(dropping)", "confidence": 0.62}, {"start_time": 4.5, "end_time": 5.5, "name": "Coin_(dropping)", "confidence": 0.62}, {"start_time": 9.5, "end_time": 12.0, "name": "Coin_(dropping)", "confidence": 0.6}], "num_detections": 3, "detected_classes": ["Coin_(dropping)"]}

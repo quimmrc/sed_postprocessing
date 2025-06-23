@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 2.5, "end_time": 3.5, "name": "Water_tap_and_faucet", "confidence": 0.89}, {"start_time": 11.5, "end_time": 12.5, "name": "Pour", "confidence": 0.56}, {"start_time": 11.5, "end_time": 12.5, "name": "Trickle_and_dribble", "confidence": 0.55}], "num_detections": 3, "detected_classes": ["Pour", "Water_tap_and_faucet", "Trickle_and_dribble"]}

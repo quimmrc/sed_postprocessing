@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 0.0, "end_time": 13.0, "name": "Packing_tape_and_duct_tape", "confidence": 0.57}, {"start_time": 11.0, "end_time": 13.0, "name": "Domestic_sounds_and_home_sounds", "confidence": 0.6}], "num_detections": 2, "detected_classes": ["Packing_tape_and_duct_tape", "Domestic_sounds_and_home_sounds"]}

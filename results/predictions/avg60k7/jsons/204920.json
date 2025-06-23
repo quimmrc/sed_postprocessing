@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 3.0, "end_time": 5.5, "name": "Wind", "confidence": 0.23}, {"start_time": 20.5, "end_time": 24.5, "name": "Livestock_and_farm_animals_and_working_animals", "confidence": 0.66}], "num_detections": 2, "detected_classes": ["Livestock_and_farm_animals_and_working_animals", "Wind"]}

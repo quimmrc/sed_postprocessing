@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 0.0, "end_time": 1.0, "name": "Scratching_(performance_technique)", "confidence": 0.82}, {"start_time": 3.5, "end_time": 5.5, "name": "Shout", "confidence": 0.23}], "num_detections": 2, "detected_classes": ["Shout", "Scratching_(performance_technique)"]}

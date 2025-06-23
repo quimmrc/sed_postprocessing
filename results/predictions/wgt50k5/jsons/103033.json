@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 19.0, "end_time": 20.0, "name": "Dog", "confidence": 0.58}, {"start_time": 19.0, "end_time": 20.0, "name": "Domestic_animals_and_pets", "confidence": 0.76}], "num_detections": 2, "detected_classes": ["Domestic_animals_and_pets", "Dog"]}

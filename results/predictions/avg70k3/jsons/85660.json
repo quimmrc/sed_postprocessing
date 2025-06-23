@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 2.0, "end_time": 2.5, "name": "Bass_drum", "confidence": 0.34}, {"start_time": 2.0, "end_time": 2.5, "name": "Drum", "confidence": 0.63}, {"start_time": 2.0, "end_time": 2.5, "name": "Thump_and_thud", "confidence": 0.29}], "num_detections": 3, "detected_classes": ["Bass_drum", "Thump_and_thud", "Drum"]}

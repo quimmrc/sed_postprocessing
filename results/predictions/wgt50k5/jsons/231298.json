@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 0.0, "end_time": 6.0, "name": "Liquid", "confidence": 0.89}, {"start_time": 0.0, "end_time": 3.5, "name": "Splash_and_splatter", "confidence": 0.45}, {"start_time": 7.0, "end_time": 16.5, "name": "Liquid", "confidence": 0.51}], "num_detections": 3, "detected_classes": ["Splash_and_splatter", "Liquid"]}

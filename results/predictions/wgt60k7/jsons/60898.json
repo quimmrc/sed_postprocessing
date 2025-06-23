@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 3.5, "end_time": 7.5, "name": "Human_voice", "confidence": 0.92}, {"start_time": 3.5, "end_time": 7.0, "name": "Speech", "confidence": 0.4}, {"start_time": 4.0, "end_time": 7.5, "name": "Child_speech_and_kid_speaking", "confidence": 0.25}], "num_detections": 3, "detected_classes": ["Human_voice", "Child_speech_and_kid_speaking", "Speech"]}

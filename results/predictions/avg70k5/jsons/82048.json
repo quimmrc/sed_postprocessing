@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 0.0, "end_time": 1.0, "name": "Cutlery_and_silverware", "confidence": 0.78}, {"start_time": 0.5, "end_time": 1.0, "name": "Domestic_sounds_and_home_sounds", "confidence": 0.84}], "num_detections": 2, "detected_classes": ["Domestic_sounds_and_home_sounds", "Cutlery_and_silverware"]}

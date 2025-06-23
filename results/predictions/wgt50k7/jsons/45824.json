@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 2.0, "end_time": 11.5, "name": "Crumpling_and_crinkling", "confidence": 0.66}, {"start_time": 5.5, "end_time": 12.5, "name": "Frying_(food)", "confidence": 0.36}, {"start_time": 13.0, "end_time": 16.0, "name": "Crumpling_and_crinkling", "confidence": 0.68}], "num_detections": 3, "detected_classes": ["Crumpling_and_crinkling", "Frying_(food)"]}

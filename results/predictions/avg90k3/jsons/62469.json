@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 3.5, "end_time": 4.5, "name": "Tearing", "confidence": 0.86}, {"start_time": 7.0, "end_time": 8.0, "name": "Tearing", "confidence": 0.82}, {"start_time": 9.5, "end_time": 11.0, "name": "Tearing", "confidence": 0.89}, {"start_time": 13.0, "end_time": 14.0, "name": "Tearing", "confidence": 0.83}], "num_detections": 4, "detected_classes": ["Tearing"]}

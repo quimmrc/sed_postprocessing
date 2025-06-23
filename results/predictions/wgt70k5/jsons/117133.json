@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 0.0, "end_time": 3.0, "name": "Keyboard_(musical)", "confidence": 0.73}, {"start_time": 1.0, "end_time": 3.0, "name": "Organ", "confidence": 0.89}, {"start_time": 4.0, "end_time": 6.0, "name": "Boom", "confidence": 0.57}], "num_detections": 3, "detected_classes": ["Boom", "Keyboard_(musical)", "Organ"]}

@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 0.0, "end_time": 1.0, "name": "Crack", "confidence": 0.21}, {"start_time": 3.5, "end_time": 4.5, "name": "Packing_tape_and_duct_tape", "confidence": 0.5}], "num_detections": 2, "detected_classes": ["Crack", "Packing_tape_and_duct_tape"]}

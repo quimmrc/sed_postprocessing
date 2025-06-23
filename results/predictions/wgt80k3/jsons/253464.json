@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 0.0, "end_time": 1.0, "name": "Guitar", "confidence": 0.97}, {"start_time": 0.0, "end_time": 0.5, "name": "Plucked_string_instrument", "confidence": 0.97}, {"start_time": 5.5, "end_time": 6.5, "name": "Keyboard_(musical)", "confidence": 0.73}], "num_detections": 3, "detected_classes": ["Plucked_string_instrument", "Guitar", "Keyboard_(musical)"]}

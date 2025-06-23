@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 0.0, "end_time": 1.0, "name": "Walk_and_footsteps", "confidence": 0.42}, {"start_time": 6.5, "end_time": 7.0, "name": "Liquid", "confidence": 0.48}], "num_detections": 2, "detected_classes": ["Liquid", "Walk_and_footsteps"]}

@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 0.0, "end_time": 7.5, "name": "Chink_and_clink", "confidence": 0.48}, {"start_time": 0.0, "end_time": 7.5, "name": "Glass", "confidence": 0.7}, {"start_time": 3.5, "end_time": 7.5, "name": "Bell", "confidence": 0.55}], "num_detections": 3, "detected_classes": ["Chink_and_clink", "Glass", "Bell"]}

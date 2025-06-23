@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 0.0, "end_time": 16.5, "name": "Percussion", "confidence": 0.85}, {"start_time": 0.0, "end_time": 16.5, "name": "Rattle_(instrument)", "confidence": 0.86}, {"start_time": 15.5, "end_time": 16.5, "name": "Musical_instrument", "confidence": 0.94}], "num_detections": 3, "detected_classes": ["Rattle_(instrument)", "Musical_instrument", "Percussion"]}

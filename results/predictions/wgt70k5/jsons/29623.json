@@ -1,0 +1,1 @@
+{"detections": [{"start_time": 0.0, "end_time": 1.0, "name": "Bell", "confidence": 0.85}, {"start_time": 2.5, "end_time": 4.5, "name": "Glockenspiel", "confidence": 0.22}], "num_detections": 2, "detected_classes": ["Bell", "Glockenspiel"]}
