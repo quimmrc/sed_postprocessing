@@ -2,11 +2,10 @@ import json
 import pandas as pd
 import os
 import numpy as np
-from sklearn.metrics import f1_score
 
 from threshold_per_class import compute_thresholds
-from postprocessing import post_process, test_postprocess
-from evaluate_postprocessing import prepare_evaluation_set, best_thresholds
+from postprocessing import post_process
+from evaluate_postprocessing import prepare_evaluation_set, best_thresholds, evaluate_predictions
 from utils import get_unique_path
 import hparams
 import utils
@@ -57,7 +56,7 @@ def run_postprocessing(thresholds_path, activations_path, output_results_path,
         input_path = os.path.join(thresholds_path, threshold_file)
         classes_thresholds = json.load(open(input_path))
         classes_thresholds = [t for t in classes_thresholds.values()]
-        post_process(input=activations_path,output=postprocesing_path, threshold = classes_thresholds, 
+        post_process(method='empirical',input=activations_path,output=postprocesing_path, threshold = classes_thresholds, 
                     class_names=class_names, kernel = kernel)
         experiments_counter += 1
         print(f"Postprocessing for {experiment_name} completed. {experiments_counter}/{len(os.listdir(thresholds_path))-1}")
@@ -69,20 +68,6 @@ def run_postprocessing(thresholds_path, activations_path, output_results_path,
 
 
 def run_evaluation(ground_truth_path, output_results_path, class_names, thresholds_path):
-    """
-    Evaluates postprocessed prediction results against ground truth data, computes F1 scores, and saves evaluation reports.
-    Args:
-        ground_truth_path (str): Path to the ground truth data.
-        output_results_path (str): Directory where prediction results and evaluation outputs are stored.
-        class_names (list): List of class names for evaluation.
-        thresholds_path (str): Path to the thresholds file used for evaluation.
-    Side Effects:
-        - Computes and saves per-class and macro F1 scores for each experiment in JSON format.
-        - Determines best thresholds and saves a summary report and result files.
-        - Writes hyperparameters and an evaluation completion checkpoint to output directories.
-    Raises:
-        AssertionError: If the shape of predictions does not match the shape of detections.
-    """
 
     evaluation_checkpoint = os.path.join(output_results_path,'.evaluation_complete')
 
@@ -97,31 +82,15 @@ def run_evaluation(ground_truth_path, output_results_path, class_names, threshol
         
         experiment_name = pred_file.split('.')[0]
         files_path = os.path.join(predictions_folder,experiment_name,'jsons')
-        detections, files_order = prepare_evaluation_set(ground_truth_path, class_names,files_path)
-        detections = np.array(detections)
-        
         
         pred_file_path = os.path.join(predictions_folder, pred_file)
         pred_dict = json.load(open(pred_file_path))
 
-        # Ensure predictions is a list of lists and matches detections in shape
-        predictions = np.array(list(pred_dict.values()))
-
-        assert predictions.shape == detections.shape, "Shape mismatch between detections and predictions"
-        print(f"Evaluating experiment: {pred_file}")
-
-        f1_macro = f1_score(detections, predictions, average='macro', zero_division=0)
-        per_class_f1 = f1_score(detections, predictions, average=None, zero_division=0)
-
-        f1_class = {c[0]:round(c[1],4) for c in list(zip(class_names,per_class_f1))}
-        f1_class['Macro'] = round(f1_macro,4)    
-
-        print(f"F1-Macro for experiment {experiment_name}: {f1_macro:.4f}")
+        f1_class = evaluate_predictions(ground_truth_path, class_names, files_path, pred_dict, experiment_name)
         
         k_folder = experiment_name[experiment_name.find('k'):]
         os.makedirs(os.path.join(f1_folder,k_folder), exist_ok=True)
         json.dump(f1_class, open(f"{os.path.join(f1_folder, k_folder,f'{experiment_name}_scores')}.json", 'w'),indent=3)            
-
 
     report, result = best_thresholds(f1_folder,class_names, thresholds_path, hparams.percentiles)
     json.dump(report, open(f"{os.path.join(output_results_path,'report')}.json",'w'), indent = 3)
@@ -160,39 +129,34 @@ def reset_pipeline(output_results_path, step=None):
                 os.remove(checkpoint)
         print(f"Pipeline reset from {step} step.")
 
+def _run_test_evaluation(ground_truth, pred_file, predictions_path, class_names, output_results_path):
+    """Common test evaluation logic for both empirical and percentual methods"""
+    if os.path.exists(pred_file):
+        with open(pred_file) as f:
+            pred_dict = json.load(f)
+        files_path = os.path.join(predictions_path, "jsons")
+        
+        f1_class = evaluate_predictions(ground_truth, class_names, files_path, pred_dict, pred_file)
+        
+        os.makedirs(output_results_path, exist_ok=True)
+        with open(os.path.join(output_results_path, 'test_evaluation.json'), 'w') as tf:
+            json.dump(f1_class, tf, indent=3)
+
 def run_test(ground_truth, result, activations_path, output_results_path, class_names):
 
     result_data = json.load(open(result))
     predictions_path = os.path.join(output_results_path,"predictions")
-    test_postprocess(input=activations_path,output=predictions_path, result=result_data, 
-                    class_names=class_names)
-
+    post_process(method='empirical',input=activations_path,output=predictions_path,threshold=None,class_names=class_names,
+                kernel=0, test=True, result=result_data)
+    
     pred_file = os.path.join(output_results_path,'predictions.predictions.json')
-
-    if os.path.exists(pred_file):
-        pred_dict = json.load(open(pred_file))
-        files_path = os.path.join(predictions_path,"jsons")
-        detections, _ = prepare_evaluation_set(ground_truth, class_names,files_path)
-        detections = np.array(detections)
-        predictions = np.array(list(pred_dict.values()))
-
-        assert predictions.shape == detections.shape, "Shape mismatch between detections and predictions"
-        print(f"Evaluating experiment: {pred_file}")
-
-        f1_macro = f1_score(detections, predictions, average='macro', zero_division=0)
-        per_class_f1 = f1_score(detections, predictions, average=None, zero_division=0)
-
-        f1_class = {c[0]:round(c[1],4) for c in list(zip(class_names,per_class_f1))}
-        f1_class['Macro'] = round(f1_macro,4)    
-
-        print(f"F1-Macro for experiment: {f1_macro:.4f}")
-        json.dump(f1_class, open(os.path.join(output_results_path,'test_evaluation.json'),'w'), indent=3)
+    _run_test_evaluation(ground_truth, pred_file, predictions_path, class_names, output_results_path)
 
 
 if __name__ == "__main__":   
 
     args = utils.parse_args(result_path = hparams.output_path)
-    output_results_path = os.path.join("./results",args.name)
+    result_path = os.path.join(args.output_path,args.name)
 
     # Load data
     gt = pd.read_csv(hparams.ground_truth_path) 
@@ -211,23 +175,34 @@ if __name__ == "__main__":
             missing_labels = [label not in class_names for label in labels]
             raise ValueError("Some labels in your ground truth are not present in class_names file." \
             "Make sure both sets of labels share the same format. ")
+        
+    if args.method == 'empirical':
+        if args.test:
+            result_file = args.test_file
+            output_results_path = os.path.join(result_path,'test')
+            run_test(args.method, hparams.ground_truth_path, result_file, hparams.activations_path,output_results_path,class_names)
+        
+        else:
+            if os.path.exists(result_path):
+                reset_pipeline(result_path, step=args.step)  # Reset from postprocessing onwards
 
-    if args.test:
-        result_file = args.test_file
-        output_results_path = os.path.join(output_results_path,'test')
-        run_test(hparams.ground_truth_path, result_file, hparams.activations_path,output_results_path,class_names)
+            thresholds_path = run_threshold_computation(hparams.activations_path, result_path, class_names, 
+                                    files, labels, hparams.percentiles, hparams.weighted, hparams.kernels)
+
+            run_postprocessing(thresholds_path,hparams.activations_path,result_path,class_names)
+            run_evaluation(hparams.ground_truth_path,result_path,class_names, thresholds_path)
     
-    else:
-        result_path = os.path.join("./results",args.name)
-        if os.path.exists(result_path):
-            reset_pipeline(output_results_path, step=args.step)  # Reset from postprocessing onwards
-
-        thresholds_path = run_threshold_computation(hparams.activations_path, output_results_path, class_names, 
-                                files, labels, hparams.percentiles, hparams.weighted, hparams.kernels)
-
-        run_postprocessing(thresholds_path,hparams.activations_path,output_results_path,class_names)
-
-        run_evaluation(hparams.ground_truth_path,output_results_path,class_names, thresholds_path)
+    elif args.method == 'percentual':
+        
+        if args.test:
+            pred_file = os.path.join(hparams.output_path, f"{args.name}.predictions.json")
+            predictions_path = os.path.join(hparams.output_path, args.name)
+            output_results_path = os.path.join(hparams.output_path, 'test')
+            _run_test_evaluation(hparams.ground_truth_path, pred_file, predictions_path, class_names, output_results_path)            
+        else:
+            thr = hparams.min_threshold
+            post_process(method=args.method, input=hparams.activations_path, output=result_path, threshold=thr, class_names=class_names, kernel=0)
+        
 
 
      

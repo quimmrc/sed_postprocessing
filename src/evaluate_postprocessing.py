@@ -90,3 +90,21 @@ def best_thresholds(f1_folder, class_names, thresholds_folder, percentiles):
             'Best results per class': best_result_per_class}
     result = [(best_result_per_class[label]['thr'], int(best_result_per_class[label]['k'])) for label in best_result_per_class.keys()]
     return report, result
+
+def evaluate_predictions(ground_truth_path, class_names, files_path, pred_dict, experiment_name):
+    """Common evaluation logic for both run_evaluation and run_test"""
+    detections, _ = prepare_evaluation_set(ground_truth_path, class_names, files_path)
+    detections = np.array(detections)
+    predictions = np.array(list(pred_dict.values()))
+
+    assert predictions.shape == detections.shape, "Shape mismatch between detections and predictions"
+    print(f"Evaluating experiment: {experiment_name}")
+
+    f1_macro = f1_score(detections, predictions, average='macro', zero_division=0)
+    per_class_f1 = f1_score(detections, predictions, average=None, zero_division=0)
+
+    f1_class = {c[0]:round(c[1],4) for c in list(zip(class_names,per_class_f1))}
+    f1_class['Macro'] = round(f1_macro,4)    
+
+    print(f"F1-Macro for experiment {experiment_name}: {f1_macro:.4f}")
+    return f1_class
