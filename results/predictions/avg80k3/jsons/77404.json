@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 5.0, "end_time": 6.5, "name": "Cat", "confidence": 0.99}, {"start_time": 5.0, "end_time": 6.0, "name": "Domestic_animals_and_pets", "confidence": 0.98}, {"start_time": 5.0, "end_time": 6.0, "name": "Purr", "confidence": 0.98}], "num_detections": 3, "detected_classes": ["Cat", "Purr", "Domestic_animals_and_pets"]}

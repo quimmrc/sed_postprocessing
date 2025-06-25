@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 1.0, "end_time": 2.0, "name": "Brass_instrument", "confidence": 0.94}, {"start_time": 4.5, "end_time": 5.5, "name": "Cough", "confidence": 0.97}, {"start_time": 4.5, "end_time": 5.5, "name": "Respiratory_sounds", "confidence": 0.88}], "num_detections": 3, "detected_classes": ["Cough", "Brass_instrument", "Respiratory_sounds"]}

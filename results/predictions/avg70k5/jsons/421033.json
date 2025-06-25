@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.0, "end_time": 2.5, "name": "Thump_and_thud", "confidence": 0.34}, {"start_time": 0.0, "end_time": 2.5, "name": "Wood", "confidence": 0.22}, {"start_time": 1.0, "end_time": 2.5, "name": "Hammer", "confidence": 0.45}], "num_detections": 3, "detected_classes": ["Wood", "Thump_and_thud", "Hammer"]}

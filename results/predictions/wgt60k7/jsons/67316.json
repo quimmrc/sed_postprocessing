@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 16.0, "end_time": 16.5, "name": "Accordion", "confidence": 0.38}, {"start_time": 18.0, "end_time": 18.5, "name": "Accordion", "confidence": 0.38}, {"start_time": 23.5, "end_time": 24.5, "name": "Accordion", "confidence": 0.42}], "num_detections": 3, "detected_classes": ["Accordion"]}

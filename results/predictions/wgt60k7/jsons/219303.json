@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 2.5, "end_time": 11.5, "name": "Drum", "confidence": 0.47}, {"start_time": 12.5, "end_time": 13.5, "name": "Drum", "confidence": 0.41}, {"start_time": 13.5, "end_time": 16.0, "name": "Door", "confidence": 0.4}, {"start_time": 14.5, "end_time": 15.5, "name": "Drum", "confidence": 0.37}], "num_detections": 4, "detected_classes": ["Drum", "Door"]}

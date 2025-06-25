@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.0, "end_time": 0.5, "name": "Crash_cymbal", "confidence": 0.85}, {"start_time": 0.0, "end_time": 0.5, "name": "Cymbal", "confidence": 0.9}, {"start_time": 0.0, "end_time": 0.5, "name": "Percussion", "confidence": 0.87}], "num_detections": 3, "detected_classes": ["Percussion", "Cymbal", "Crash_cymbal"]}

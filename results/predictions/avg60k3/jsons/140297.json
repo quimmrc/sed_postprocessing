@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 2.0, "end_time": 4.0, "name": "Chewing_and_mastication", "confidence": 0.87}, {"start_time": 8.5, "end_time": 9.5, "name": "Chewing_and_mastication", "confidence": 0.87}, {"start_time": 10.5, "end_time": 11.5, "name": "Chewing_and_mastication", "confidence": 0.95}], "num_detections": 3, "detected_classes": ["Chewing_and_mastication"]}

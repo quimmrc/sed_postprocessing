@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 11.0, "end_time": 12.5, "name": "Chirp_and_tweet", "confidence": 0.32}, {"start_time": 14.0, "end_time": 17.0, "name": "Domestic_sounds_and_home_sounds", "confidence": 0.83}], "num_detections": 2, "detected_classes": ["Domestic_sounds_and_home_sounds", "Chirp_and_tweet"]}

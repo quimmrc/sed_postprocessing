@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.0, "end_time": 0.5, "name": "Musical_instrument", "confidence": 0.94}, {"start_time": 0.0, "end_time": 2.0, "name": "Scratching_(performance_technique)", "confidence": 0.88}], "num_detections": 2, "detected_classes": ["Scratching_(performance_technique)", "Musical_instrument"]}

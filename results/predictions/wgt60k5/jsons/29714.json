@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.0, "end_time": 0.5, "name": "Drum", "confidence": 0.4}, {"start_time": 1.5, "end_time": 3.0, "name": "Boat_and_Water_vehicle", "confidence": 0.18}], "num_detections": 2, "detected_classes": ["Boat_and_Water_vehicle", "Drum"]}

@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 3.5, "end_time": 4.5, "name": "Sink_(filling_or_washing)", "confidence": 0.94}, {"start_time": 3.5, "end_time": 4.5, "name": "Water_tap_and_faucet", "confidence": 0.95}], "num_detections": 2, "detected_classes": ["Water_tap_and_faucet", "Sink_(filling_or_washing)"]}

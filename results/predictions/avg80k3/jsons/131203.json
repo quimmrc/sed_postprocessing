@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.0, "end_time": 0.5, "name": "Wind_chime", "confidence": 0.59}, {"start_time": 1.0, "end_time": 2.0, "name": "Musical_instrument", "confidence": 0.99}], "num_detections": 2, "detected_classes": ["Musical_instrument", "Wind_chime"]}

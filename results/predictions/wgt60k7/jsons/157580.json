@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.0, "end_time": 2.0, "name": "Skateboard", "confidence": 0.51}, {"start_time": 14.5, "end_time": 16.0, "name": "Skateboard", "confidence": 0.43}], "num_detections": 2, "detected_classes": ["Skateboard"]}

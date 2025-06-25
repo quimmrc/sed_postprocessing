@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 2.5, "end_time": 6.0, "name": "Splash_and_splatter", "confidence": 0.59}, {"start_time": 5.5, "end_time": 6.0, "name": "Waves_and_surf", "confidence": 0.4}], "num_detections": 2, "detected_classes": ["Waves_and_surf", "Splash_and_splatter"]}

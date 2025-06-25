@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 2.0, "end_time": 3.0, "name": "Cupboard_open_or_close", "confidence": 0.34}], "num_detections": 1, "detected_classes": ["Cupboard_open_or_close"]}

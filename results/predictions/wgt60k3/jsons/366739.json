@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.5, "end_time": 3.0, "name": "Screech", "confidence": 0.64}, {"start_time": 2.5, "end_time": 4.0, "name": "Dishes_and_pots_and_pans", "confidence": 0.24}], "num_detections": 2, "detected_classes": ["Dishes_and_pots_and_pans", "Screech"]}

@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 1.0, "end_time": 2.5, "name": "Crumpling_and_crinkling", "confidence": 0.9}, {"start_time": 12.0, "end_time": 12.5, "name": "Crumpling_and_crinkling", "confidence": 0.74}, {"start_time": 14.5, "end_time": 15.5, "name": "Crack", "confidence": 0.18}], "num_detections": 3, "detected_classes": ["Crack", "Crumpling_and_crinkling"]}

@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 8.0, "end_time": 11.0, "name": "Bicycle_bell", "confidence": 0.71}, {"start_time": 8.5, "end_time": 11.5, "name": "Bicycle", "confidence": 0.92}, {"start_time": 14.5, "end_time": 15.5, "name": "Bicycle", "confidence": 0.93}], "num_detections": 3, "detected_classes": ["Bicycle", "Bicycle_bell"]}

@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.0, "end_time": 3.0, "name": "Domestic_sounds_and_home_sounds", "confidence": 0.85}, {"start_time": 1.0, "end_time": 3.0, "name": "Frying_(food)", "confidence": 0.56}], "num_detections": 2, "detected_classes": ["Domestic_sounds_and_home_sounds", "Frying_(food)"]}

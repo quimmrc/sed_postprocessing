@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 8.0, "end_time": 11.5, "name": "Chatter", "confidence": 0.21}, {"start_time": 20.5, "end_time": 22.5, "name": "Chatter", "confidence": 0.24}, {"start_time": 23.5, "end_time": 24.0, "name": "Subway_and_metro_and_underground", "confidence": 0.52}], "num_detections": 3, "detected_classes": ["Subway_and_metro_and_underground", "Chatter"]}

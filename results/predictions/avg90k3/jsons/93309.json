@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 11.5, "end_time": 15.0, "name": "Gull_and_seagull", "confidence": 0.85}, {"start_time": 16.0, "end_time": 17.0, "name": "Gull_and_seagull", "confidence": 0.8}], "num_detections": 2, "detected_classes": ["Gull_and_seagull"]}

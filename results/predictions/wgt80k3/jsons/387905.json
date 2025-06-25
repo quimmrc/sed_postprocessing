@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 3.0, "end_time": 4.0, "name": "Typewriter", "confidence": 0.4}, {"start_time": 8.5, "end_time": 9.5, "name": "Typewriter", "confidence": 0.33}], "num_detections": 2, "detected_classes": ["Typewriter"]}

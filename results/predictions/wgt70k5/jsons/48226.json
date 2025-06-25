@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.0, "end_time": 1.0, "name": "Trumpet", "confidence": 0.93}, {"start_time": 0.5, "end_time": 1.0, "name": "Brass_instrument", "confidence": 0.97}, {"start_time": 0.5, "end_time": 1.0, "name": "Musical_instrument", "confidence": 0.98}], "num_detections": 3, "detected_classes": ["Brass_instrument", "Trumpet", "Musical_instrument"]}

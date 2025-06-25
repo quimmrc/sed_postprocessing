@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.0, "end_time": 4.5, "name": "Alarm", "confidence": 0.96}, {"start_time": 0.0, "end_time": 4.5, "name": "Motor_vehicle_(road)", "confidence": 0.83}, {"start_time": 0.0, "end_time": 4.5, "name": "Siren", "confidence": 0.9}], "num_detections": 3, "detected_classes": ["Motor_vehicle_(road)", "Siren", "Alarm"]}

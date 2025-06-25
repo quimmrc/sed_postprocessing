@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 4.0, "end_time": 5.5, "name": "Wood", "confidence": 0.23}, {"start_time": 8.5, "end_time": 10.0, "name": "Drawer_open_or_close", "confidence": 0.52}, {"start_time": 11.0, "end_time": 12.0, "name": "Wood", "confidence": 0.25}], "num_detections": 3, "detected_classes": ["Drawer_open_or_close", "Wood"]}

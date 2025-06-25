@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 8.0, "end_time": 15.0, "name": "Acoustic_guitar", "confidence": 0.3}], "num_detections": 1, "detected_classes": ["Acoustic_guitar"]}

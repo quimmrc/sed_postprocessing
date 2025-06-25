@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.0, "end_time": 0.5, "name": "Glockenspiel", "confidence": 0.18}, {"start_time": 0.0, "end_time": 3.0, "name": "Mallet_percussion", "confidence": 0.82}, {"start_time": 0.0, "end_time": 1.5, "name": "Percussion", "confidence": 0.85}], "num_detections": 3, "detected_classes": ["Percussion", "Mallet_percussion", "Glockenspiel"]}

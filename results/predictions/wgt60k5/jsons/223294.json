@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.0, "end_time": 0.5, "name": "Child_speech_and_kid_speaking", "confidence": 0.23}, {"start_time": 1.5, "end_time": 2.5, "name": "Liquid", "confidence": 0.54}, {"start_time": 10.5, "end_time": 11.0, "name": "Child_speech_and_kid_speaking", "confidence": 0.19}], "num_detections": 3, "detected_classes": ["Child_speech_and_kid_speaking", "Liquid"]}

@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 4.0, "end_time": 5.5, "name": "Wood", "confidence": 0.2}, {"start_time": 13.0, "end_time": 14.0, "name": "Crumpling_and_crinkling", "confidence": 0.73}], "num_detections": 2, "detected_classes": ["Wood", "Crumpling_and_crinkling"]}

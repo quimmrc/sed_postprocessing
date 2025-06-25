@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.0, "end_time": 0.5, "name": "Engine", "confidence": 0.79}, {"start_time": 0.0, "end_time": 1.0, "name": "Idling", "confidence": 0.54}, {"start_time": 16.5, "end_time": 17.5, "name": "Idling", "confidence": 0.74}], "num_detections": 3, "detected_classes": ["Engine", "Idling"]}

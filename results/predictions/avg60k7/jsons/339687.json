@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.0, "end_time": 0.5, "name": "Bicycle", "confidence": 0.59}, {"start_time": 29.0, "end_time": 29.5, "name": "Domestic_sounds_and_home_sounds", "confidence": 0.76}], "num_detections": 2, "detected_classes": ["Bicycle", "Domestic_sounds_and_home_sounds"]}

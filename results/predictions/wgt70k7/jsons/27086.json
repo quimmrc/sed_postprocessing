@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.0, "end_time": 4.0, "name": "Clock", "confidence": 0.97}, {"start_time": 0.0, "end_time": 13.5, "name": "Mechanisms", "confidence": 0.91}, {"start_time": 10.0, "end_time": 13.5, "name": "Clock", "confidence": 0.9}], "num_detections": 3, "detected_classes": ["Clock", "Mechanisms"]}

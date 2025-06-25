@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.0, "end_time": 1.0, "name": "Dishes_and_pots_and_pans", "confidence": 0.3}, {"start_time": 1.0, "end_time": 1.5, "name": "Keyboard_(musical)", "confidence": 0.4}], "num_detections": 2, "detected_classes": ["Dishes_and_pots_and_pans", "Keyboard_(musical)"]}

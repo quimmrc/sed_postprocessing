@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.0, "end_time": 5.5, "name": "Human_voice", "confidence": 0.93}, {"start_time": 0.5, "end_time": 5.0, "name": "Laughter", "confidence": 0.92}, {"start_time": 5.5, "end_time": 6.5, "name": "Domestic_sounds_and_home_sounds", "confidence": 0.66}], "num_detections": 3, "detected_classes": ["Human_voice", "Domestic_sounds_and_home_sounds", "Laughter"]}

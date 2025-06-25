@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.0, "end_time": 0.5, "name": "Pour", "confidence": 0.32}, {"start_time": 0.0, "end_time": 0.5, "name": "Trickle_and_dribble", "confidence": 0.33}], "num_detections": 2, "detected_classes": ["Pour", "Trickle_and_dribble"]}

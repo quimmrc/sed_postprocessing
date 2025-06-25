@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.0, "end_time": 2.5, "name": "Female_speech_and_woman_speaking", "confidence": 0.82}, {"start_time": 0.0, "end_time": 2.5, "name": "Human_voice", "confidence": 0.98}, {"start_time": 0.0, "end_time": 2.5, "name": "Speech", "confidence": 0.64}], "num_detections": 3, "detected_classes": ["Human_voice", "Speech", "Female_speech_and_woman_speaking"]}

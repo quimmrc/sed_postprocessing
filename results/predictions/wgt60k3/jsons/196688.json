@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 4.0, "end_time": 4.5, "name": "Vehicle", "confidence": 0.9}, {"start_time": 23.5, "end_time": 25.0, "name": "Motor_vehicle_(road)", "confidence": 0.76}, {"start_time": 23.5, "end_time": 25.0, "name": "Vehicle", "confidence": 0.91}], "num_detections": 3, "detected_classes": ["Vehicle", "Motor_vehicle_(road)"]}

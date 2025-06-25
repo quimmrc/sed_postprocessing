@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.0, "end_time": 4.5, "name": "Crack", "confidence": 0.23}, {"start_time": 8.0, "end_time": 9.0, "name": "Crack", "confidence": 0.22}, {"start_time": 19.5, "end_time": 22.0, "name": "Crack", "confidence": 0.22}], "num_detections": 3, "detected_classes": ["Crack"]}

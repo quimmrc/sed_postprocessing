@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.0, "end_time": 0.5, "name": "Fart", "confidence": 0.5}, {"start_time": 3.0, "end_time": 5.0, "name": "Drum", "confidence": 0.44}, {"start_time": 3.0, "end_time": 4.5, "name": "Snare_drum", "confidence": 0.33}], "num_detections": 3, "detected_classes": ["Snare_drum", "Drum", "Fart"]}

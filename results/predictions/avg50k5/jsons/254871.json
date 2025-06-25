@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.0, "end_time": 0.5, "name": "Whoosh_and_swoosh_and_swish", "confidence": 0.82}, {"start_time": 1.0, "end_time": 4.5, "name": "Whoosh_and_swoosh_and_swish", "confidence": 0.38}], "num_detections": 2, "detected_classes": ["Whoosh_and_swoosh_and_swish"]}

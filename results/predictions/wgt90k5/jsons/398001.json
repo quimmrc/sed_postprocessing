@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 4.0, "end_time": 5.5, "name": "Chirp_and_tweet", "confidence": 0.5}, {"start_time": 15.0, "end_time": 16.5, "name": "Chirp_and_tweet", "confidence": 0.57}], "num_detections": 2, "detected_classes": ["Chirp_and_tweet"]}

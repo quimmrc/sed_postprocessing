@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 1.0, "end_time": 3.5, "name": "Frying_(food)", "confidence": 0.36}, {"start_time": 5.0, "end_time": 8.0, "name": "Frying_(food)", "confidence": 0.33}], "num_detections": 2, "detected_classes": ["Frying_(food)"]}

@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 13.0, "end_time": 15.5, "name": "Camera", "confidence": 0.59}, {"start_time": 21.0, "end_time": 21.5, "name": "Domestic_sounds_and_home_sounds", "confidence": 0.77}], "num_detections": 2, "detected_classes": ["Domestic_sounds_and_home_sounds", "Camera"]}

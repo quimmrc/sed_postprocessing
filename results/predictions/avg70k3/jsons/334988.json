@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 1.0, "end_time": 1.5, "name": "Domestic_sounds_and_home_sounds", "confidence": 0.84}, {"start_time": 1.0, "end_time": 2.0, "name": "Door", "confidence": 0.51}, {"start_time": 2.0, "end_time": 2.5, "name": "Chink_and_clink", "confidence": 0.46}], "num_detections": 3, "detected_classes": ["Chink_and_clink", "Domestic_sounds_and_home_sounds", "Door"]}

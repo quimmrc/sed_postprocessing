@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 23.0, "end_time": 28.0, "name": "Traffic_noise_and_roadway_noise", "confidence": 0.31}, {"start_time": 24.5, "end_time": 26.0, "name": "Motor_vehicle_(road)", "confidence": 0.77}], "num_detections": 2, "detected_classes": ["Traffic_noise_and_roadway_noise", "Motor_vehicle_(road)"]}

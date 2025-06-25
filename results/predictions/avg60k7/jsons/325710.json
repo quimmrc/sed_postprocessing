@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.0, "end_time": 14.5, "name": "Crack", "confidence": 0.46}, {"start_time": 13.0, "end_time": 13.5, "name": "Packing_tape_and_duct_tape", "confidence": 0.38}, {"start_time": 14.0, "end_time": 16.5, "name": "Packing_tape_and_duct_tape", "confidence": 0.38}], "num_detections": 3, "detected_classes": ["Packing_tape_and_duct_tape", "Crack"]}

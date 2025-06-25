@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 1.0, "end_time": 3.5, "name": "Crying_and_sobbing", "confidence": 0.69}, {"start_time": 1.5, "end_time": 3.5, "name": "Human_voice", "confidence": 0.96}, {"start_time": 16.5, "end_time": 17.0, "name": "Human_voice", "confidence": 0.95}], "num_detections": 3, "detected_classes": ["Human_voice", "Crying_and_sobbing"]}

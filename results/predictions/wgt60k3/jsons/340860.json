@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.0, "end_time": 3.0, "name": "Zipper_(clothing)", "confidence": 0.89}, {"start_time": 0.5, "end_time": 3.0, "name": "Domestic_sounds_and_home_sounds", "confidence": 0.77}], "num_detections": 2, "detected_classes": ["Domestic_sounds_and_home_sounds", "Zipper_(clothing)"]}

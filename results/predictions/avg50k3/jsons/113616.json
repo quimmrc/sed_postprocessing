@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.5, "end_time": 9.5, "name": "Boat_and_Water_vehicle", "confidence": 0.25}, {"start_time": 0.5, "end_time": 1.5, "name": "Music", "confidence": 0.94}, {"start_time": 0.5, "end_time": 1.5, "name": "Musical_instrument", "confidence": 0.95}], "num_detections": 3, "detected_classes": ["Boat_and_Water_vehicle", "Music", "Musical_instrument"]}

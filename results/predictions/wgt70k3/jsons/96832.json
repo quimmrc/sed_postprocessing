@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.5, "end_time": 1.5, "name": "Waves_and_surf", "confidence": 0.39}, {"start_time": 5.5, "end_time": 6.0, "name": "Traffic_noise_and_roadway_noise", "confidence": 0.48}], "num_detections": 2, "detected_classes": ["Traffic_noise_and_roadway_noise", "Waves_and_surf"]}

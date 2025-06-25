@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 17.5, "end_time": 19.5, "name": "Typing", "confidence": 0.83}, {"start_time": 23.5, "end_time": 24.5, "name": "Domestic_sounds_and_home_sounds", "confidence": 0.74}], "num_detections": 2, "detected_classes": ["Domestic_sounds_and_home_sounds", "Typing"]}

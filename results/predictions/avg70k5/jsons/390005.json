@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.0, "end_time": 1.0, "name": "Bathtub_(filling_or_washing)", "confidence": 0.59}, {"start_time": 0.0, "end_time": 1.0, "name": "Splash_and_splatter", "confidence": 0.53}], "num_detections": 2, "detected_classes": ["Bathtub_(filling_or_washing)", "Splash_and_splatter"]}

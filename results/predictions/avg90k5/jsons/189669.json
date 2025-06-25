@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 4.0, "end_time": 9.5, "name": "Water_tap_and_faucet", "confidence": 0.9}, {"start_time": 14.5, "end_time": 16.5, "name": "Water_tap_and_faucet", "confidence": 0.88}, {"start_time": 20.0, "end_time": 20.5, "name": "Water_tap_and_faucet", "confidence": 0.88}], "num_detections": 3, "detected_classes": ["Water_tap_and_faucet"]}

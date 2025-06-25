@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 11.5, "end_time": 12.0, "name": "Engine", "confidence": 0.43}, {"start_time": 14.5, "end_time": 15.5, "name": "Microwave_oven", "confidence": 0.56}], "num_detections": 2, "detected_classes": ["Engine", "Microwave_oven"]}

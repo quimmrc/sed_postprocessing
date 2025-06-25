@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.0, "end_time": 0.5, "name": "Cutlery_and_silverware", "confidence": 0.84}, {"start_time": 1.5, "end_time": 4.0, "name": "Cutlery_and_silverware", "confidence": 0.39}], "num_detections": 2, "detected_classes": ["Cutlery_and_silverware"]}

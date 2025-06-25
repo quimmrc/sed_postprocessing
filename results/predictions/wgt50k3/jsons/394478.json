@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 5.5, "end_time": 12.0, "name": "Gong", "confidence": 0.56}, {"start_time": 7.0, "end_time": 8.5, "name": "Percussion", "confidence": 0.58}, {"start_time": 9.5, "end_time": 12.0, "name": "Percussion", "confidence": 0.57}], "num_detections": 3, "detected_classes": ["Percussion", "Gong"]}

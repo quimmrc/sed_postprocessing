@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 3.5, "end_time": 5.0, "name": "Walk_and_footsteps", "confidence": 0.32}, {"start_time": 9.5, "end_time": 14.0, "name": "Animal", "confidence": 0.8}, {"start_time": 12.0, "end_time": 13.5, "name": "Domestic_animals_and_pets", "confidence": 0.71}], "num_detections": 3, "detected_classes": ["Domestic_animals_and_pets", "Walk_and_footsteps", "Animal"]}

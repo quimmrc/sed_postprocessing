@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.0, "end_time": 2.0, "name": "Drum", "confidence": 0.49}, {"start_time": 0.0, "end_time": 8.0, "name": "Drum_kit", "confidence": 0.93}, {"start_time": 0.0, "end_time": 8.0, "name": "Percussion", "confidence": 0.97}], "num_detections": 3, "detected_classes": ["Drum", "Drum_kit", "Percussion"]}

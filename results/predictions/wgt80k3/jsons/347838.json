@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 6.0, "end_time": 9.5, "name": "Drill", "confidence": 0.65}, {"start_time": 6.0, "end_time": 9.5, "name": "Power_tool", "confidence": 0.63}, {"start_time": 6.5, "end_time": 8.0, "name": "Tools", "confidence": 0.88}], "num_detections": 3, "detected_classes": ["Power_tool", "Tools", "Drill"]}

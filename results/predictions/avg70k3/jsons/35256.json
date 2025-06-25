@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.5, "end_time": 2.0, "name": "Keyboard_(musical)", "confidence": 0.68}, {"start_time": 4.0, "end_time": 5.5, "name": "Keyboard_(musical)", "confidence": 0.71}, {"start_time": 6.0, "end_time": 7.0, "name": "Bass_guitar", "confidence": 0.65}], "num_detections": 3, "detected_classes": ["Bass_guitar", "Keyboard_(musical)"]}

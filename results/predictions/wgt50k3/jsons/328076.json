@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.0, "end_time": 0.5, "name": "Wood", "confidence": 0.48}, {"start_time": 4.0, "end_time": 5.5, "name": "Wood", "confidence": 0.33}, {"start_time": 6.5, "end_time": 7.5, "name": "Wood", "confidence": 0.19}, {"start_time": 11.5, "end_time": 12.5, "name": "Wood", "confidence": 0.23}], "num_detections": 4, "detected_classes": ["Wood"]}

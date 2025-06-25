@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 1.0, "end_time": 2.0, "name": "Bus", "confidence": 0.26}, {"start_time": 2.0, "end_time": 2.5, "name": "Aircraft", "confidence": 0.53}, {"start_time": 2.0, "end_time": 2.5, "name": "Fixed-wing_aircraft_and_airplane", "confidence": 0.33}], "num_detections": 3, "detected_classes": ["Fixed-wing_aircraft_and_airplane", "Bus", "Aircraft"]}

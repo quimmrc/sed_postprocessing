@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.0, "end_time": 0.5, "name": "Crumpling_and_crinkling", "confidence": 0.82}, {"start_time": 2.5, "end_time": 4.0, "name": "Chewing_and_mastication", "confidence": 0.84}], "num_detections": 2, "detected_classes": ["Chewing_and_mastication", "Crumpling_and_crinkling"]}

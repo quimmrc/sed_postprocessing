@@ -10,15 +10,15 @@ import os
 import numpy as np
 from scipy.ndimage import median_filter
 
-def thresholds_postprocessing(thresholds, kernel_size=5, weighted=True):
-    """For a given array of thresholds for a class in a file, return the valid threshold.
+def thresholds_postprocessing(thresholds, weighted, kernel_size):
+    """For a given array of confidences for a class in a file, return the valid threshold.
     The final threshold is computed as follows:
         First we run a median filtering through the whole class probabilities.
         Second we compute for each 
     Args:
         thresholds (_type_): _description_
     """
-    med_filter = median_filter(volume = thresholds, size = kernel_size, mode='reflect')
+    med_filter = median_filter(thresholds, size = kernel_size, mode='reflect')
     if all(p == 0 for p in med_filter):
         med_filter = np.array(thresholds)
     mask = med_filter>0
@@ -39,7 +39,7 @@ def thresholds_postprocessing(thresholds, kernel_size=5, weighted=True):
     #print(f"Final threshold: {final_threshold}")
     return float(final_threshold)
 
-def compute_thresholds(files, labels, class_names, activations_path, percentiles, weighted, output_path):
+def compute_thresholds(files, labels, class_names, activations_path, percentiles, weighted, output_path, kernel):
 
     classes_thr = [[] for _ in range(200)]
     for analysis in os.listdir(activations_path):
@@ -61,7 +61,7 @@ def compute_thresholds(files, labels, class_names, activations_path, percentiles
         
         for key, value in thresholds.items():
             if any(p != 0 for p in value):
-                thr = thresholds_postprocessing(label=key, thresholds=value, weighted=weighted)
+                thr = thresholds_postprocessing(thresholds=value, weighted=weighted, kernel_size=kernel)
                 if np.isnan(thr):
                     print(f"WARNING: NaN threshold found for class {key}. Threshold vector: {value}")
                 classes_thr[key].append(thr)
@@ -70,7 +70,8 @@ def compute_thresholds(files, labels, class_names, activations_path, percentiles
     for percentile in percentiles:
         classes_thr_dict = {class_names[j]: round(float(np.percentile(thrs,percentile)),2) for j,thrs in enumerate(classes_thr)}
         w = 'wgt' if weighted else 'avg'
-        fname = os.path.join(output_path, f'class_thresholds_{w}{percentile}.json')
+        k = f"k{kernel}"
+        fname = os.path.join(output_path, f'class_thresholds_{w}{percentile}{k}.json')
         with open(fname,'w') as f:
             json.dump(classes_thr_dict,f, indent=3)
         

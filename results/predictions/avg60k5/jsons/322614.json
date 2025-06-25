@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 5.5, "end_time": 7.5, "name": "Livestock_and_farm_animals_and_working_animals", "confidence": 0.7}, {"start_time": 19.0, "end_time": 23.5, "name": "Motor_vehicle_(road)", "confidence": 0.69}], "num_detections": 2, "detected_classes": ["Livestock_and_farm_animals_and_working_animals", "Motor_vehicle_(road)"]}

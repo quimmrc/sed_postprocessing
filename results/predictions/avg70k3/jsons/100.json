@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 7.0, "end_time": 8.0, "name": "Animal", "confidence": 0.91}, {"start_time": 16.5, "end_time": 17.5, "name": "Wild_animals", "confidence": 0.8}, {"start_time": 17.5, "end_time": 18.0, "name": "Rattle", "confidence": 0.37}], "num_detections": 3, "detected_classes": ["Wild_animals", "Animal", "Rattle"]}

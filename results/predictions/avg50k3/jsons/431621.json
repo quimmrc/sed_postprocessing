@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 1.0, "end_time": 3.5, "name": "Fart", "confidence": 0.43}, {"start_time": 3.0, "end_time": 3.5, "name": "Cupboard_open_or_close", "confidence": 0.21}], "num_detections": 2, "detected_classes": ["Cupboard_open_or_close", "Fart"]}

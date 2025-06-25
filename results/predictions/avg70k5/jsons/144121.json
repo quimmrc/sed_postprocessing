@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.0, "end_time": 1.0, "name": "Motor_vehicle_(road)", "confidence": 0.81}, {"start_time": 3.5, "end_time": 4.0, "name": "Motor_vehicle_(road)", "confidence": 0.75}, {"start_time": 20.0, "end_time": 21.5, "name": "Walk_and_footsteps", "confidence": 0.58}], "num_detections": 3, "detected_classes": ["Walk_and_footsteps", "Motor_vehicle_(road)"]}

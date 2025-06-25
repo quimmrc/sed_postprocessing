@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 4.0, "end_time": 7.0, "name": "Chirp_and_tweet", "confidence": 0.41}, {"start_time": 4.5, "end_time": 7.0, "name": "Bird_vocalization_and_bird_call_and_bird_song", "confidence": 0.73}], "num_detections": 2, "detected_classes": ["Chirp_and_tweet", "Bird_vocalization_and_bird_call_and_bird_song"]}

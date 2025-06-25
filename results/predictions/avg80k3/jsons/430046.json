@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.0, "end_time": 11.5, "name": "Cheering", "confidence": 0.86}, {"start_time": 1.0, "end_time": 8.0, "name": "Human_group_actions", "confidence": 0.95}, {"start_time": 9.5, "end_time": 10.0, "name": "Human_group_actions", "confidence": 0.96}], "num_detections": 3, "detected_classes": ["Human_group_actions", "Cheering"]}

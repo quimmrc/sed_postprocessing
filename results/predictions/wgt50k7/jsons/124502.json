@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.0, "end_time": 2.5, "name": "Glockenspiel", "confidence": 0.19}, {"start_time": 0.0, "end_time": 2.5, "name": "Percussion", "confidence": 0.8}], "num_detections": 2, "detected_classes": ["Glockenspiel", "Percussion"]}

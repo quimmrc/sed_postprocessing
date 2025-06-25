@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.0, "end_time": 2.0, "name": "Human_voice", "confidence": 0.89}, {"start_time": 0.0, "end_time": 2.0, "name": "Male_speech_and_man_speaking", "confidence": 0.18}, {"start_time": 0.0, "end_time": 2.0, "name": "Speech", "confidence": 0.28}], "num_detections": 3, "detected_classes": ["Speech", "Male_speech_and_man_speaking", "Human_voice"]}

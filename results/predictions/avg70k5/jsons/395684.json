@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.0, "end_time": 1.5, "name": "Chatter", "confidence": 0.22}, {"start_time": 0.0, "end_time": 6.5, "name": "Fixed-wing_aircraft_and_airplane", "confidence": 0.61}, {"start_time": 4.0, "end_time": 6.0, "name": "Chatter", "confidence": 0.25}], "num_detections": 3, "detected_classes": ["Chatter", "Fixed-wing_aircraft_and_airplane"]}

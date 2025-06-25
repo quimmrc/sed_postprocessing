@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 0.0, "end_time": 2.0, "name": "Glass", "confidence": 0.83}, {"start_time": 5.5, "end_time": 6.5, "name": "Dishes_and_pots_and_pans", "confidence": 0.27}, {"start_time": 5.5, "end_time": 7.0, "name": "Glass", "confidence": 0.88}], "num_detections": 3, "detected_classes": ["Dishes_and_pots_and_pans", "Glass"]}

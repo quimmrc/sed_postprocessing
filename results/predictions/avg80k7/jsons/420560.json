@@ -1,1 +1,0 @@
-{"detections": [{"start_time": 1.5, "end_time": 5.0, "name": "Aircraft", "confidence": 0.81}, {"start_time": 12.0, "end_time": 14.5, "name": "Aircraft", "confidence": 0.83}], "num_detections": 2, "detected_classes": ["Aircraft"]}
